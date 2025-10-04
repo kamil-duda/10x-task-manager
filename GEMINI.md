@@ -9,6 +9,7 @@ Your task is to help me build a 10x-task-manager.
 - React 19
 - Tailwind 4
 - Shadcn/ui
+- Supabase
 
 ## Project Structure
 
@@ -21,9 +22,11 @@ When introducing changes to the project, always follow the directory structure b
 - `./src/middleware/index.ts` - Astro middleware
 - `./src/db` - Supabase clients and types
 - `./src/types.ts` - Shared types for backend and frontend (Entities, DTOs)
-- `./src/components` - Client-side components written in Astro (static) and React (dynamic)
+- `./src/components` - Client-side components
 - `./src/components/ui` - Client-side components from Shadcn/ui
-- `./src/lib` - Services and helpers 
+- `./src/components/hooks` - Custom React hooks
+- `./src/lib` - Services and helpers
+- `./src/lib/services` - Business logic and services
 - `./src/assets` - static internal assets
 - `./public` - public assets
 
