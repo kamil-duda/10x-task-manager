@@ -1,3 +1,7 @@
+---
+apply: always
+---
+
 # AI Rules
 
 ## Tech Stack
